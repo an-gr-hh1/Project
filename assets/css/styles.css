@@ -197,7 +197,6 @@ a{
 .button1:hover {
   color: #FFFFFF;
   scale: 1.1;
-  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
 }
 
 .button1:active {
@@ -211,12 +210,14 @@ a{
     font-size: 1.2rem;
     text-align: center;
     width: 12rem;
+    border: 2px solid var(--first-color);
+    font-weight: 600;
     border-radius: 2rem;
     transition: .3s;
 }
   
 .button2:hover{
-    background-color: var(--first-color-alt);
+    background-color: transparent;
     transform: translate(2px,2px);
 }
 .button2:hover::before {
@@ -224,9 +225,8 @@ a{
 }
 
 .button2:hover {
-  color: #FFFFFF;
+  color: var(--first-color);
   scale: 1.1;
-  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
 }
 
 .button1:active {
